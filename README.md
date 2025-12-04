@@ -10,19 +10,19 @@ digital platform.
 
 ## 🚀 Live Demo
 
-🔗 Try the app here:\
-👉 **https://preview--cyber-cycle-grid.lovable.app/auth**
+🔗 Try the app here:
+👉 **https://cyber-cycle-grid.lovable.app/auth**
 
 ## 📌 Features
 
 ### 🔐 1. Secure Multi-User Authentication
 
--   Login & Create Account pages\
--   Username/email login\
--   Session-based authentication\
+-   Login & Create Account pages
+-   Username/email login
+-   Session-based authentication
 -   User dropdown showing:
-    -   Profile\
-    -   Logged-in username\
+    -   Profile
+    -   Logged-in username
     -   Logout button
 
 ### 🔮 2. Bike Demand Prediction (ML Model)
@@ -31,82 +31,82 @@ RideWise predicts bike rentals using *two datasets*:
 
 #### Hourly Prediction
 
--   Uses `hour.csv`\
+-   Uses `hour.csv`
 -   Inputs: temperature, humidity, weather, windspeed, season, etc.
 
 #### Daily Prediction
 
--   Uses `day.csv`\
+-   Uses `day.csv`
 -   Inputs: daily weather, working day, holiday, season, etc.
 
 ### 🚴‍♂️ 3. Bike Reservation System
 
--   Book any ride\
--   Total bookings counter\
+-   Book any ride
+-   Total bookings counter
 -   Booking history with:
-    -   User\
-    -   Bike type\
-    -   Date & time\
-    -   Duration\
-    -   Estimated fare\
-    -   Confirmation ID\
+    -   User
+    -   Bike type
+    -   Date & time
+    -   Duration
+    -   Estimated fare
+    -   Confirmation ID
 -   Confetti animation on booking
 
 ### 📩 4. Contact Page → Sends Email
 
 Emails are sent directly to **jyoshikajyoshika3@gmail.com** with: -
-Sender name\
-- Sender email\
-- Message\
+Sender name
+- Sender email
+- Message
 - Timestamp
 
 ### 🔗 5. Social Icons
 
--   LinkedIn → https://www.linkedin.com/in/jyoshika777\
--   GitHub → https://github.com/Jyoshika777\
+-   LinkedIn → https://www.linkedin.com/in/jyoshika777
+-   GitHub → https://github.com/Jyoshika777
 -   Email → mailto:jyoshikajyoshika3@gmail.com
 
 ### 🗺 6. Dashboard & Insights
 
--   Clean neon UI\
--   Weather-based analytics\
+-   Clean neon UI
+-   Weather-based analytics
 -   Mobile responsive
 
 ## 🛠 Tech Stack
 
 ### Frontend
 
--   React (Lovable)\
--   TailwindCSS\
+-   React (Lovable)
+-   TailwindCSS
 -   Lottie animations
 
 ### Backend & ML
 
--   Python\
--   TensorFlow/Keras\
--   NumPy\
--   Pandas\
--   Scikit-Learn\
+-   Python
+-   TensorFlow/Keras
+-   NumPy
+-   Pandas
+-   Scikit-Learn
 -   EmailJS / Lovable email API
 
 ## 🧠 Machine Learning Model
 
 ### Datasets
 
--   hour.csv\
+-   hour.csv
 -   day.csv
 
 ### Preprocessing
 
--   Handle missing values\
--   Encode categories\
--   Feature scaling\
+-   Handle missing values
+-   Encode categories
+-   Feature scaling
 -   Train/test split
 
 ### Model
 
--   ANN\
--   ReLU\
+-   ANN
+-   ReLU
 -   Adam optimizer
 
 ## 📂 Project Structure
@@ -140,9 +140,9 @@ Sender name\
 
 ## 📬 Contact
 
-👤 **Jyoshika Irlapati**\
-📧 Email: jyoshikajyoshika3@gmail.com\
-🔗 LinkedIn: https://www.linkedin.com/in/jyoshika777\
+👤 **Jyoshika Irlapati**
+📧 Email: jyoshikajyoshika3@gmail.com
+🔗 LinkedIn: https://www.linkedin.com/in/jyoshika777
 💻 GitHub: https://github.com/Jyoshika777
 
 ## ⭐ Support
