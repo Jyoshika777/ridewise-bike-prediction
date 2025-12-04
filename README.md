@@ -1,216 +1,150 @@
-🚴‍♂️ RideWise – Smart Bike Rental & Demand Prediction System
+# 🚴‍♂️ RideWise -- Smart Bike Rental & Demand Prediction System
 
-RideWise is a futuristic bike-rental web application with user authentication, bike booking, demand prediction (hourly + daily), interactive dashboards, and real-time contact messaging.
+RideWise is a futuristic bike-rental web application with **user
+authentication, bike booking, demand prediction (hourly + daily),
+interactive dashboards, and real-time contact messaging.**
 
-It integrates machine learning models, beautiful neon UI, and a full session-based login system to deliver a complete bike-sharing digital platform.
+It integrates **machine learning models**, beautiful **neon UI**, and a
+full session-based login system to deliver a complete bike-sharing
+digital platform.
 
-🚀 Live Demo
+## 🚀 Live Demo
 
-🔗 Try the app here:
-👉 https://preview--cyber-cycle-grid.lovable.app/auth
+🔗 Try the app here:\
+👉 **https://preview--cyber-cycle-grid.lovable.app/auth**
 
-📌 Features
-🔐 1. Secure Multi-User Authentication
+## 📌 Features
 
-Login & Create Account pages
+### 🔐 1. Secure Multi-User Authentication
 
-Username/email login
+-   Login & Create Account pages\
+-   Username/email login\
+-   Session-based authentication\
+-   User dropdown showing:
+    -   Profile\
+    -   Logged-in username\
+    -   Logout button
 
-Session-based authentication
+### 🔮 2. Bike Demand Prediction (ML Model)
 
-User dropdown showing:
+RideWise predicts bike rentals using *two datasets*:
 
-Profile
+#### Hourly Prediction
 
-Logged-in username
+-   Uses `hour.csv`\
+-   Inputs: temperature, humidity, weather, windspeed, season, etc.
 
-Logout button
+#### Daily Prediction
 
-🔮 2. Bike Demand Prediction (ML Model)
+-   Uses `day.csv`\
+-   Inputs: daily weather, working day, holiday, season, etc.
 
-RideWise predicts bike rentals using two datasets:
+### 🚴‍♂️ 3. Bike Reservation System
 
-Hourly Prediction
+-   Book any ride\
+-   Total bookings counter\
+-   Booking history with:
+    -   User\
+    -   Bike type\
+    -   Date & time\
+    -   Duration\
+    -   Estimated fare\
+    -   Confirmation ID\
+-   Confetti animation on booking
 
-Uses hour.csv
+### 📩 4. Contact Page → Sends Email
 
-Inputs: temperature, humidity, weather, windspeed, season, etc.
+Emails are sent directly to **jyoshikajyoshika3@gmail.com** with: -
+Sender name\
+- Sender email\
+- Message\
+- Timestamp
 
-Daily Prediction
+### 🔗 5. Social Icons
 
-Uses day.csv
+-   LinkedIn → https://www.linkedin.com/in/jyoshika777\
+-   GitHub → https://github.com/Jyoshika777\
+-   Email → mailto:jyoshikajyoshika3@gmail.com
 
-Inputs: daily weather, working day, holiday, season, etc.
+### 🗺 6. Dashboard & Insights
 
-Both include:
+-   Clean neon UI\
+-   Weather-based analytics\
+-   Mobile responsive
 
-Neon cards
+## 🛠 Tech Stack
 
-Fast predictions
+### Frontend
 
-Animated result display
+-   React (Lovable)\
+-   TailwindCSS\
+-   Lottie animations
 
-Tabbed interface (Hourly / Daily)
+### Backend & ML
 
-🚴‍♂️ 3. Bike Reservation System
+-   Python\
+-   TensorFlow/Keras\
+-   NumPy\
+-   Pandas\
+-   Scikit-Learn\
+-   EmailJS / Lovable email API
 
-Book any ride
+## 🧠 Machine Learning Model
 
-Shows total bookings counter (animated)
+### Datasets
 
-Each booking contains:
+-   hour.csv\
+-   day.csv
 
-User
+### Preprocessing
 
-Bike type
+-   Handle missing values\
+-   Encode categories\
+-   Feature scaling\
+-   Train/test split
 
-Date & time
+### Model
 
-Duration
+-   ANN\
+-   ReLU\
+-   Adam optimizer
 
-Estimated fare
+## 📂 Project Structure
 
-Confirmation ID
+    RideWise/
+    │
+    ├── frontend/     
+    ├── model/        
+    ├── datasets/     
+    └── README.md
 
-Booking history shown as animated glass cards
+## 🧪 Running Locally
 
-Confetti animation on successful booking
+### 1️⃣ Clone Repository
 
-📩 4. Contact Page → Sends Email
+    git clone https://github.com/your-username/RideWise.git
+    cd RideWise
 
-Sends user message directly to jyoshikajyoshika3@gmail.com
+### 2️⃣ Install Backend Dependencies
 
-Email contains:
+    pip install -r requirements.txt
 
-Sender name
+### 3️⃣ Run ML Server
 
-Sender email
+    python app.py
 
-Message
+### 4️⃣ Start Frontend
 
-Timestamp
+    npm install
+    npm start
 
-Animated “Message Sent Successfully!” popup
+## 📬 Contact
 
-🔗 5. Social Icons
-
-LinkedIn → https://www.linkedin.com/in/jyoshika777
-
-GitHub → https://github.com/Jyoshika777
-
-Email → mailto:jyoshikajyoshika3@gmail.com
-
-Neon glow + bounce animation
-
-🗺 6. Dashboard & Insights
-
-Clean, modern UI
-
-Weather-based analytics
-
-Interactive cards
-
-Gradient graphs
-
-Responsive & mobile-friendly
-
-🛠 Tech Stack
-Frontend
-
-⚛️ React (via Lovable App builder)
-
-🎨 TailwindCSS / Custom Neon UI
-
-🎞 Lottie Animations
-
-Backend
-
-☁ Lovable App internal backend
-
-🧠 Machine Learning Model (trained separately)
-
-📤 EmailJS / Lovable Email API
-
-Machine Learning
-
-Python
-
-NumPy
-
-Pandas
-
-Scikit-Learn
-
-TensorFlow/Keras
-
-Matplotlib
-
-🧠 Machine Learning Model
-📊 Datasets Used
-
-hour.csv → Hourly bike-share counts
-
-day.csv → Daily bike-share counts
-
-🔧 Preprocessing
-
-Handling missing values
-
-Converting categorical fields
-
-Feature scaling (MinMax/Standard)
-
-Train/test split
-
-🧠 Models
-
-Artificial Neural Networks (ANN)
-
-ReLU activations
-
-Adam optimizer
-
-Mean Squared Error loss
-
-🎯 Output
-
-Predicted number of rented bikes (CNT)
-
-Accurate to weather + season + working day patterns
-
-📂 Project Structure
-RideWise/
-│
-├── frontend/     # Lovable React app
-├── model/        # ML model files (hour & day)
-├── datasets/     # hour.csv & day.csv
-└── README.md
-
-🧪 How to Run the Project Locally
-1️⃣ Clone Repository
-git clone https://github.com/your-username/RideWise.git
-cd RideWise
-
-2️⃣ Install Backend/ML Dependencies
-pip install -r requirements.txt
-
-3️⃣ Run ML Model Server (optional)
-python app.py
-
-4️⃣ Start Frontend (Lovable React)
-npm install
-npm start
-
-📬 Contact
-
-👤 Jyoshika Irlapati
-📧 Email: jyoshikajyoshika3@gmail.com
-
-🔗 LinkedIn: https://www.linkedin.com/in/jyoshika777
-
+👤 **Jyoshika Irlapati**\
+📧 Email: jyoshikajyoshika3@gmail.com\
+🔗 LinkedIn: https://www.linkedin.com/in/jyoshika777\
 💻 GitHub: https://github.com/Jyoshika777
 
-⭐ Support the Project
+## ⭐ Support
 
-If you found RideWise helpful, please 🌟 star the repository!
-
+If you found RideWise helpful, please 🌟 star the repo!
