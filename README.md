@@ -143,7 +143,9 @@ Sender name
 👤 **Jyoshika Irlapati**
 
 📧 Email: jyoshikajyoshika3@gmail.com
+
 🔗 LinkedIn: https://www.linkedin.com/in/jyoshika777
+
 💻 GitHub: https://github.com/Jyoshika777
 
 ## ⭐ Support
